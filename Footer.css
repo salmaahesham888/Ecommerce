@@ -1,0 +1,31 @@
+.footer_social_icon {
+    display:flex;
+flex-direction: row;
+}
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    list-style:none;
+gap:20px;
+font-size: 20px;
+
+}
+.footer{
+
+padding-left: 600px;
+
+}
+.footer_social_icon{
+    display: flex;
+    gap:15px;
+    padding-left: 20px;
+   
+} 
+p{
+    padding-left: 13px;
+}
+
+    .ss{
+position: relative;
+bottom:50px;
+    }

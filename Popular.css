@@ -1,0 +1,73 @@
+.popular {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.popular h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* .popular .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+
+/* Card */
+.item {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 15px;
+  transition: 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Image */
+.item img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+/* Name */
+.item p {
+  margin: 10px 0;
+  font-size: 20px;
+  /* font-weight: 500; */
+  color: #333;
+  text-align: center;
+  position: relative;
+  top:10px;
+  padding-right: 70px;
+ 
+}
+
+/* Prices */
+.item-prices {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.item_price-new {
+  color: #e91e63;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.item_price-old {
+  color: gray;
+  text-decoration: line-through;
+  font-size: 14px;
+}

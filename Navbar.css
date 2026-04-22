@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* مهم */
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+     list-style: none;
+     font-size: 20px;
+    
+}
+.nav-menu li a {
+  color: gray;
+  text-decoration: none;
+}
+.nav-menu li:hover {
+
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+p{
+   position: relative;
+   bottom:60px;
+   left: 70px;
+   font-size: 40px;
+}
+button {
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: pink;
+}
+button:hover{
+    background-color:beige
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+body {
+    margin: 0;
+    padding: 0px;
+}

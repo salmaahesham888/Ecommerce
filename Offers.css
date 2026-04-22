@@ -1,0 +1,12 @@
+.offers{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+background: linear-gradient(180deg, #fde1ff, #e1ffea);
+
+}
+.offers .offers-left{
+  line-height: 3px;
+  padding-right: 315px;
+}

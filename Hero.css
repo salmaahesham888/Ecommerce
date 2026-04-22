@@ -1,0 +1,41 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(180deg, #fde1ff, #e1ffea);
+  padding: 0 60px;
+  position: relative;
+  bottom:50px;
+}
+
+.hero-hand-icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hero-hand-icon img {
+  width: 35px;
+  height: auto;
+}
+
+.hero-right {
+  margin-left: auto;
+}
+
+.hero button {
+  background-color: pink;
+  width: 175px;
+  border: 1px solid aliceblue;
+}
+
+.hero-left p {
+  line-height: 24px;
+
+  max-width: 500px;
+}
+h2{
+    position: relative;
+    bottom:300px;
+}
